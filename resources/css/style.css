@@ -9,19 +9,27 @@ html {
 header {
   position: fixed;
   height: 69px;
+  width: 100%;
   border-bottom: 1px solid seashell;
 }
 
 nav {
   display: inline-block;
+  height: 100%
+  
 }
 
-span .title {
+span.title {
   display: inline-block;
   height: 50px;
+  align-content: center;
+  margin-left: 10px;
 
 }
 
-h1 .navlinks {
+h1.navlinks {
   display: inline-block;
+  height: 2rem;
+  justify-items: left;
+  align-content: center;
 }
