@@ -1,0 +1,27 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+nav {
+  display: inline-block;
+}
+
+span .title {
+  display: inline-block;
+  height: 50px;
+
+}
+
+h1 .navlinks {
+  display: inline-block;
+}
