@@ -5,31 +5,66 @@ html {
   background-color: black;
   text-align: center;
 }
+/* Fixed Header */
 
-header {
+header.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: fixed;
   height: 69px;
   width: 100%;
+  background-color: black;
   border-bottom: 1px solid seashell;
+  z-index: 10;
+  top: 0;
 }
 
-nav {
-  display: inline-block;
-  height: 100%
+nav.nav {
+}
+
+img.logo {
+  height: 50px;
+  margin-left: 10px; 
+}
+
+a.navlinks {
+  color:seashell;
+  text-decoration: underline;
+}
+
+/*  Mission Section */
+
+section.container1 {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  align-items: center;
+  height: 31.81rem; 
+}
+
+div.banner {
+  background-color: black;
+  width: 100%; 
+}
+
+/*  Featured Tea  */
+section.container2 {
+  
   
 }
 
-span.title {
-  display: inline-block;
-  height: 50px;
-  align-content: center;
-  margin-left: 10px;
+div.section-headers {
 
 }
 
-h1.navlinks {
-  display: inline-block;
-  height: 2rem;
-  justify-items: left;
-  align-content: center;
+div.img-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ /* margin-left: 2.5rem;   */
+}
+
+img.content {
+  margin-bottom: 0.5rem;
+
 }
