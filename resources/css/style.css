@@ -49,8 +49,8 @@ div.banner {
 
 /*  Featured Tea  */
 section.container2 {
-  
-  
+  width: 1000px;
+  margin-left: 8rem; 
 }
 
 div.section-headers {
@@ -66,5 +66,46 @@ div.img-container {
 
 img.content {
   margin-bottom: 0.5rem;
+}
 
+figure {
+  margin: 0 0 10px 0;
+}
+
+/*  Locations */
+section.container3 {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+}
+
+div.location-header {
+  padding-top:3.5rem;
+}
+
+div.card-container {
+  display: flex;
+  justify-content:center;
+}
+
+div.location-card {
+  background-color:black;
+  margin: 15px 20px 0px 20px;
+  width: 300px;
+  opacity: 1;
+}
+
+address {
+  line-height: 2rem;
+}
+
+/* Footer */
+div.container4 {
+  height:200px;
+  display: flex;
+  flex-flow: column;
+}
+
+div.copyrightcontainer {
+  text-align: left;
+  margin-left: 20px;
 }
